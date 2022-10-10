@@ -6,9 +6,9 @@ const ShoppingButton = () => {
     const mystyle = {
         color: "white",
         backgroundColor: "blueviolet",
-        paddingTop: "5px",
+        paddingTop: "7px",
         fontFamily: "Arial",
-        height: "30px"
+        height: "40px"
       };
     return(
         <Button variant="Primary" style={mystyle} >

@@ -11,16 +11,21 @@ const ListProduct = () => {
     const mystyle = {
         width: "50px",
         height: "50px",
-        padding: "10px"
+        padding: "10x"
     };
 
     const border = {
         border: "1px solid black",
-        marginTop: "10px"
+        marginTop: "10px",
     }
+    const containerStyle = {
+        width: "45%",
+        marginLeft: "50px"
+    }
+
     return (
         <Card>
-            <Container>
+            <Container style={containerStyle}>
                 <Row>
                     <Col>
                         <h2>Shopping car items</h2>
