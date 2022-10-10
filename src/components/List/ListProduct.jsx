@@ -24,7 +24,6 @@ const ListProduct = () => {
     }
 
     return (
-        <Card>
             <Container style={containerStyle}>
                 <Row>
                     <Col>
@@ -36,7 +35,8 @@ const ListProduct = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <Row style={border}>
+                        <Row>
+                        <Card style={border}>
                             <Card.Body>
                                 <Container>
                                     <Row>
@@ -56,8 +56,10 @@ const ListProduct = () => {
                                     </Row>
                                 </Container>
                             </Card.Body>
+                            </Card>
                         </Row>
-                        <Row style={border}>
+                        <Row>
+                        <Card style={border}>
                             <Card.Body>
                                 <Container>
                                     <Row>
@@ -77,8 +79,10 @@ const ListProduct = () => {
                                     </Row>
                                 </Container>
                             </Card.Body>
+                            </Card>
                         </Row>
-                        <Row style={border}>
+                        <Row>
+                        <Card style={border}>
                             <Card.Body>
                                 <Container>
                                     <Row>
@@ -98,8 +102,10 @@ const ListProduct = () => {
                                     </Row>
                                 </Container>
                             </Card.Body>
+                            </Card>
                         </Row>
-                        <Row style={border}>
+                        <Row>
+                        <Card style={border}>
                             <Card.Body>
                                 <Container>
                                     <Row>
@@ -119,8 +125,10 @@ const ListProduct = () => {
                                     </Row>
                                 </Container>
                             </Card.Body>
+                            </Card>
                         </Row>
-                        <Row style={border}>
+                        <Row>
+                        <Card style={border}>
                             <Card.Body>
                                 <Container>
                                     <Row>
@@ -140,11 +148,11 @@ const ListProduct = () => {
                                     </Row>
                                 </Container>
                             </Card.Body>
+                            </Card>
                         </Row>
                     </Col>
                 </Row>
             </Container>
-        </Card>
     )
 }
 

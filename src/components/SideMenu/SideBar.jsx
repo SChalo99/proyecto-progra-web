@@ -2,7 +2,8 @@ import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
-import {TrashButton, ShoppingButton} from '../Buttons';
+import {ShoppingButton} from '../Buttons';
+import ListProduct from '../List';
 
 
 const SideBar = () => {
@@ -28,7 +29,7 @@ const SideBar = () => {
                     <ShoppingButton />
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link2">
-                    <TrashButton />
+                    <ListProduct />
                 </Tab.Pane>
               </Tab.Content>
             </Col>
