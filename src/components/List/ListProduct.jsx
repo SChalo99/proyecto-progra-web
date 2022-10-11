@@ -20,13 +20,17 @@ const ListProduct = () => {
     }
     const containerStyle = {
         width: "45%",
-        marginLeft: "50px"
+        marginLeft: "50px",
+    }
+
+    const titleStyle = {
+        color: "white"
     }
 
     return (
             <Container style={containerStyle}>
                 <Row>
-                    <Col>
+                    <Col style={titleStyle}>
                         <h2>Shopping car items</h2>
                     </Col>
                     <Col>
@@ -44,7 +48,7 @@ const ListProduct = () => {
                                             <img src={keyboard} alt="" style={mystyle}>
                                             </img>
                                         </Col>
-                                        <Col>
+                                        <Col xs={5}>
                                             <p>Keyboard & mouse bundle</p>
                                         </Col>
                                         <Col>
@@ -67,7 +71,7 @@ const ListProduct = () => {
                                             <img src={intel} alt="" style={mystyle}>
                                             </img>
                                         </Col>
-                                        <Col>
+                                        <Col xs={5}>
                                             <p>INTEL CORE I7-12700F 12-CORE</p>
                                         </Col>
                                         <Col>
@@ -90,7 +94,7 @@ const ListProduct = () => {
                                             <img src={Nvidia} alt="" style={mystyle}>
                                             </img>
                                         </Col>
-                                        <Col>
+                                        <Col xs={5}>
                                             <p>NVIDIA GEFORCE RTX 3070 8GB (VR READY)</p>
                                         </Col>
                                         <Col>
@@ -113,8 +117,31 @@ const ListProduct = () => {
                                             <img src={nvme} alt="" style={mystyle}>
                                             </img>
                                         </Col>
-                                        <Col>
+                                        <Col xs={5}>
                                             <p>1TB NVME M.2</p>
+                                        </Col>
+                                        <Col>
+                                            <p>$99</p>
+                                        </Col>
+                                        <Col>
+                                            <TrashButton />
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </Card.Body>
+                            </Card>
+                        </Row>
+                        <Row>
+                        <Card style={border}>
+                            <Card.Body>
+                                <Container>
+                                    <Row>
+                                        <Col>
+                                            <img src={cooler} alt="" style={mystyle}>
+                                            </img>
+                                        </Col>
+                                        <Col xs={5}>
+                                            <p>COOLER MASTER TD500 RGB</p>
                                         </Col>
                                         <Col>
                                             <p>$99</p>
@@ -136,7 +163,7 @@ const ListProduct = () => {
                                             <img src={controller} alt="" style={mystyle}>
                                             </img>
                                         </Col>
-                                        <Col>
+                                        <Col xs={5}>
                                             <p>BUILD + SETUP + TESTING + WARRANTY</p>
                                         </Col>
                                         <Col>
